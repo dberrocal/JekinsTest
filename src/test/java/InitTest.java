@@ -43,4 +43,9 @@ public class InitTest {
     public void hello() {
         assertTrue("Test correcto", 1<2);
     }
+    
+    @Test
+    public void fail() {
+        assertTrue("Test correcto", 1>2);
+    }
 }
